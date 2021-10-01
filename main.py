@@ -1,5 +1,5 @@
 #
-# File:         game_body.py
+# File:         main.py
 # Author:       Tan Duc Mai
 # Email:        tan.duc.work@gmail.com
 # Date:         12/8/2021
