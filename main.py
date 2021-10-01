@@ -11,12 +11,13 @@
 """
 Three different functions to check whether a given number is a prime.
 Return True if it is a prime, False otherwise.
-Those three functions, from a to c, decreases in efficiency (takes longer time).
+Those three functions, from a to c, decrease in efficiency (take longer time).
 """
+
+from math import sqrt
 
 
 def is_prime_a(n):
-    from math import sqrt
     if n < 2:
         return False
     sqrt_n = int(sqrt(n))
