@@ -1,5 +1,5 @@
 #
-# File:         main.py
+# File:         check-prime-functions.py
 # Author:       Tan Duc Mai
 # Email:        tan.duc.work@gmail.com
 # Date:         12/8/2021
@@ -11,10 +11,20 @@
 """
 Three different functions to check whether a given number is a prime.
 Return True if it is a prime, False otherwise.
+
 Those three functions, from a to c, decrease in efficiency (take longer time).
+
+The last function which prints out the first and last ten number of a list
+ comprising all of the prime numbers less than 10000.
+ 
+The reason for this is to concisely measure the operation time of 3 functions.
 """
 
 from math import sqrt
+
+
+def line():
+    print('-----------------------------------------------------------------------')
 
 
 def is_prime_a(n):
@@ -47,3 +57,15 @@ def is_prime_c(n):
     if divisible == 2:
         return True
     return False
+
+
+def prime_lessthan(function):
+    result = []
+    for i in range(2, 10000):
+        if function(i):
+            result.append(i)
+    print(
+        f'In a list of all prime numbers less than 10000:\n'
+        f'The first ten are: {result[0:10]}\n'
+        f'The last ten are: {result[-10:]}'
+    )
