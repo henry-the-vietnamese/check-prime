@@ -18,7 +18,7 @@ The time module has a function called time which is able to perform the timing.
 The check-prime-functions module comprises 3 functions to measure.
 """
 from time import time
-import check_prime_functions as func
+import prime_checker_functions as func
 
 
 # ------------------------------- Main Function -------------------------------
@@ -35,7 +35,7 @@ def main():
 
     # function_a
     t0 = time()
-    print(f'{n} is {func.is_prime_a(n)}')
+    print(f'{n:,} is {func.is_prime_a(n)}')
     func.prime_lessthan(func.is_prime_a)
     t1 = time()
     print(f'Function A: time taken = {round(t1 - t0, 4)} seconds.')
@@ -44,7 +44,7 @@ def main():
 
     # function_b
     t2 = time()
-    print(f'{n} is {func.is_prime_b(n)}')
+    print(f'{n:,} is {func.is_prime_b(n)}')
     func.prime_lessthan(func.is_prime_b)
     t3 = time()
     print(f'Function B: time taken = {round(t3 - t2, 4)} seconds.')
@@ -53,7 +53,7 @@ def main():
 
     # function_c
     t4 = time()
-    print(f'{n} is {func.is_prime_c(n)}')
+    print(f'{n:,} is {func.is_prime_c(n)}')
     func.prime_lessthan(func.is_prime_c)
     t5 = time()
     print(f'Function C: time taken = {round(t5 - t4, 4)} seconds.')
