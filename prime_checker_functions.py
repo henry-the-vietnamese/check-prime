@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 #
-# File:         check-prime-functions.py
+# File:         prime-checker-functions.py
 # Author:       Tan Duc Mai
 # Email:        tan.duc.work@gmail.com
 # Date:         12-Aug-2021
