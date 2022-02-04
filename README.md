@@ -18,7 +18,7 @@ loop in the range between 1 and n+1; if any number in that loop is divisible by
 n, add 1 to the variable divisible. When the loop is finished, if the variable
 divisible is equal to 2 (means only 1 and n is divisible by n), then n is prime.
 
-# Extended code to determine the quality of each algorithm
+# Extended code to compare algorithms
 In order to create a list of all prime numbers less than 10000 from those
 defined functions, I first make an empty list, then use a for loop in the range
 between 2 and 10000. If i fits the defined function, append i to that list. The
