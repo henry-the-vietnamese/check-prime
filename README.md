@@ -5,6 +5,7 @@ problem, with each way of handling a problem will have pros or cons over
 another.
 
 # Algorithms
+```
 1. Exclude n if n<2. Now, find its square root, then use a for loop in the range
    between 2 and the square root + 1. If there is no number in the loop that is
    divisible by n, then n is prime.
@@ -17,6 +18,7 @@ another.
 loop in the range between 1 and n+1; if any number in that loop is divisible by
 n, add 1 to the variable divisible. When the loop is finished, if the variable
 divisible is equal to 2 (means only 1 and n is divisible by n), then n is prime.
+```
 
 # Extended code to compare algorithms
 In order to create a list of all prime numbers less than 10000 from those
