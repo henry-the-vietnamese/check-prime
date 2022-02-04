@@ -1,13 +1,18 @@
+#!/usr/bin/python3
+
 #
 # File:         check-prime-functions.py
 # Author:       Tan Duc Mai
 # Email:        tan.duc.work@gmail.com
-# Date:         12/8/2021
+# Date:         12-Aug-2021
 # Description:  Three different functions to check if a number is prime.
+#               The last function uses a list to compare three functions.
 #   I hereby declare that I completed this work without any improper help
 #   from a third party and without using any aids other than those cited.
 #
 
+
+# ------------------------------- Module Import -------------------------------
 """
 Three different functions to check whether a given number is a prime.
 Return True if it is a prime, False otherwise.
@@ -15,14 +20,14 @@ Return True if it is a prime, False otherwise.
 Those three functions, from a to c, decrease in efficiency (take longer time).
 
 The last function which prints out the first and last ten number of a list
- comprising all of the prime numbers less than 10000.
- 
+comprising all of the prime numbers less than 10000.
+
 The reason for this is to concisely measure the operation time of 3 functions.
 """
-
 from math import sqrt
 
 
+# ---------------------------- Function Definitions ---------------------------
 def line():
     print('-----------------------------------------------------------------------')
 
